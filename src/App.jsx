@@ -30,9 +30,9 @@ function App() {
       <h1 id='h'>simple interest calculater</h1>
       <div id='mi'>
         <h1 id='v'> parthiv kumsart </h1>
-        <input type="numder"  value={prinicpal} id="p" placeholder='enter your principle amount ' onChange= {(e)=>{setPrincipal(e.target.value)}    /> <br /> 
-        <input type="number"  value={rate} id="r" placeholder='rate of interset '  onChange={(e)=>{setRate(e.target.value)}/> <br />
-        <input type="number" name="" id="t" value={time} placeholder='duration' onChange={(e)=>{setTime(e.target.value)} /> <br />
+        <input type="numder"  value={prinicpal} id="p" placeholder='enter your principle amount ' onChange= {(e)=>{setPrincipal(e.target.value)} }  /> <br /> 
+        <input type="number"  value={rate} id="r" placeholder='rate of interset '  onChange={(e)=>{setRate(e.target.value)} }/> <br />
+        <input type="number" name="" id="t" value={time} placeholder='duration' onChange={(e)=>{setTime(e.target.value)} }/> <br />
 <button id='s' onClick={calculate} >sumbit</button>
       </div>
     </div>
